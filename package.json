@@ -1,0 +1,33 @@
+{
+  "name": "the_acme_store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon server/index.js",
+    "seed": "node server/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awall26/the_acme_store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Awall26/the_acme_store/issues"
+  },
+  "homepage": "https://github.com/Awall26/the_acme_store#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
